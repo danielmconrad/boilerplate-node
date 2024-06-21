@@ -2,12 +2,15 @@
   "name": "cds-client",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "",
     "test:debug": "",
     "test:format": ""
   },
   "dependencies": {
+    "snake-names": "^1.0.9"
   },
   "devDependencies": {}
 }
