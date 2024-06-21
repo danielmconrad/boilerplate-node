@@ -1,0 +1,26 @@
+{
+  "extends": ["react-app", "plugin:jest-formatting/recommended", "prettier"],
+  "rules": {
+    "array-callback-return": "off",
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" },
+      { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
+      { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"] }
+    ],
+    "import/no-anonymous-default-export": [ "error", {
+      "allowObject": true
+    }]
+  },
+  "globals": {
+    "context": true,
+    "routerLocation": true,
+    "waitForGraphQLUpdates": true,
+    "waitForRenderUpdates": true,
+    "withApollo": true,
+    "withDatePicker": true,
+    "withoutTransitions": true,
+    "withRouter": true,
+    "withStyleCache": true
+  }
+}

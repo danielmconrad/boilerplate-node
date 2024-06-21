@@ -1,0 +1,13 @@
+{
+  "name": "cds-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "test:debug": "",
+    "test:format": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
